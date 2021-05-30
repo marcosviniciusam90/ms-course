@@ -1,4 +1,8 @@
 # Curso: Microsserviços Java com Spring Boot e Spring Cloud (DevSuperior)
+> Estruturando um sistema composto por vários microsserviços Java com Spring Boot e Spring Cloud. 
+Esses microsserviços se comunicam de forma transparente, escalável e com balancamento de carga.
+
+**Coleção do Postman**: [Link](https://github.com/marcosviniciusam90/ms-course/blob/main/doc/MS%20Course.postman_collection.json)
 
 ## O que foi utilizado?
 - Java

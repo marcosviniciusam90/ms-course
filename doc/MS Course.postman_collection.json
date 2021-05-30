@@ -1,0 +1,99 @@
+{
+	"info": {
+		"_postman_id": "3c508397-26c5-4ed4-95fa-77afbad95dfd",
+		"name": "MS Course",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Fase 1",
+			"item": [
+				{
+					"name": "hr-worker",
+					"item": [
+						{
+							"name": "All workers",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "http://localhost:8001/workers",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8001",
+									"path": [
+										"workers"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Worker by id",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "http://localhost:8001/workers/1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8001",
+									"path": [
+										"workers",
+										"1"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "hr-payroll",
+					"item": [
+						{
+							"name": "Payment",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "http://localhost:8101/payments/2/days/10",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8101",
+									"path": [
+										"payments",
+										"2",
+										"days",
+										"10"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"_postman_isSubFolder": true
+				}
+			]
+		}
+	]
+}

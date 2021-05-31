@@ -12,6 +12,7 @@ Esses microsserviços se comunicam de forma transparente, escalável e com balan
 - H2 Database
 - Feign (para requisições de API entre microsserviços)
 - Ribbon (para balanceamento de carga)
+- Eureka (para registrar as instâncias dos microsserviços) 
 
 **Fonte do aprendizado**: https://www.udemy.com/course-dashboard-redirect/?course_id=3569929
 

@@ -15,6 +15,7 @@ Esses microsserviços se comunicam de forma transparente, escalável e com balan
 - Eureka (para registrar as instâncias dos microsserviços) 
 - Hystrix (para tolerância a falhas)
 - API Gateway Zuul (para roteamento e autorização dos microsserviços)
+- Servidor de configuração centralizada com dados em repositório Git
 
 **Fonte do aprendizado**: https://www.udemy.com/course-dashboard-redirect/?course_id=3569929
 

@@ -13,6 +13,8 @@ Esses microsserviços se comunicam de forma transparente, escalável e com balan
 - Feign (para requisições de API entre microsserviços)
 - Ribbon (para balanceamento de carga)
 - Eureka (para registrar as instâncias dos microsserviços) 
+- Hystrix (para tolerância a falhas)
+- API Gateway Zuul (para roteamento e autorização dos microsserviços)
 
 **Fonte do aprendizado**: https://www.udemy.com/course-dashboard-redirect/?course_id=3569929
 

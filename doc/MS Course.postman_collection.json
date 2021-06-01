@@ -166,6 +166,124 @@
 									"raw": ""
 								},
 								"url": {
+									"raw": "http://localhost:8765/hr-payroll/payments/2/days/10",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8765",
+									"path": [
+										"hr-payroll",
+										"payments",
+										"2",
+										"days",
+										"10"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"_postman_isSubFolder": true
+				}
+			]
+		},
+		{
+			"name": "Fase 3",
+			"item": [
+				{
+					"name": "hr-worker",
+					"item": [
+						{
+							"name": "All workers",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "http://localhost:8765/hr-worker/workers",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8765",
+									"path": [
+										"hr-worker",
+										"workers"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Worker by id",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "http://localhost:8765/hr-worker/workers/1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8765",
+									"path": [
+										"hr-worker",
+										"workers",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Show worker configs on console",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "http://localhost:8765/hr-worker/workers/configs",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8765",
+									"path": [
+										"hr-worker",
+										"workers",
+										"configs"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "hr-payroll",
+					"item": [
+						{
+							"name": "Payment",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
 									"raw": "http://localhost:8765/hr-payroll/payments/1/days/10",
 									"protocol": "http",
 									"host": [
@@ -178,6 +296,60 @@
 										"1",
 										"days",
 										"10"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "hr-config-server",
+					"item": [
+						{
+							"name": "hr-worker configs (default profile)",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "http://localhost:8888/hr-worker/default",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8888",
+									"path": [
+										"hr-worker",
+										"default"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "hr-worker configs (test profile)",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "http://localhost:8888/hr-worker/test",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8888",
+									"path": [
+										"hr-worker",
+										"test"
 									]
 								}
 							},

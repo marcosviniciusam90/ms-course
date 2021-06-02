@@ -2,7 +2,7 @@
 > Estruturando um sistema composto por vários microsserviços Java com Spring Boot e Spring Cloud. 
 Esses microsserviços se comunicam de forma transparente, escalável e com balancamento de carga.
 
-**Coleção do Postman**: [Link](https://github.com/marcosviniciusam90/ms-course/blob/main/doc/MS%20Course.postman_collection.json)
+**Coleção e variáveis de ambiente do Postman**: [Link](https://github.com/marcosviniciusam90/ms-course/tree/main/doc/postman)
 
 ## O que foi utilizado?
 - Java
@@ -16,6 +16,7 @@ Esses microsserviços se comunicam de forma transparente, escalável e com balan
 - Hystrix (para tolerância a falhas)
 - API Gateway Zuul (para roteamento e autorização dos microsserviços)
 - Servidor de configuração centralizada com dados em repositório Git
+- OAuth2 e JWT (para autenticação e autorização)
 
 **Fonte do aprendizado**: https://www.udemy.com/course-dashboard-redirect/?course_id=3569929
 

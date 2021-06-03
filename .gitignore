@@ -39,3 +39,6 @@ build/
 ### Mac ###
 
 .DS_Store
+
+### Scripts gerados ###
+doc/scripts/

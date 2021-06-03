@@ -14,9 +14,13 @@ docker pull <nome-da-imagem:tag>
 docker build -f <Dockerfile> -t <nome-da-imagem:tag> .
 ```
 Obs: não precisa passar o parâmetro **-f** se o arquivo usado for o *Dockerfile* 
-#### Ver imagens
+#### Listar imagens
 ```
 docker images
+```
+#### Remover imagem
+```
+docker rmi <id-da-imagem-1> <id-da-imagem-2>
 ```
 #### Rodar um container de uma imagem
 ```
@@ -35,7 +39,7 @@ docker rm <id-do-container>
 ```
 #### Acompanhar logs do container em execução
 ```
-docker logs -f <container-id>
+docker logs -f <id-do-container>
 ```
 ------------------------------------------------
 

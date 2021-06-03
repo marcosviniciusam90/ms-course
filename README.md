@@ -22,5 +22,5 @@ Esses microsserviços se comunicam de forma transparente, escalável e com balan
 
 **Material de apoio**:<br/>
 https://github.com/acenelio/ms-course <br/>
-https://drive.google.com/file/d/1sOTfAr7EB5GwWmbbcmZkoUsB1TCeCjLI/view?usp=sharing
+https://drive.google.com/drive/u/7/folders/1FrJdreAmdwAfKcDOxGHjogn0gvotm2IM
 https://www.notion.so/Microsservi-os-Java-com-Spring-Boot-e-Spring-Cloud-Udemy-2b477738d716408e845475018d598ef3

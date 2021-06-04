@@ -8,6 +8,7 @@ Esses microsserviços se comunicam de forma transparente, escalável e com balan
 - Java
 - Spring
 - REST
+- Docker
 - Hibernate/JPA
 - H2 Database
 - Feign (para requisições de API entre microsserviços)

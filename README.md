@@ -1,9 +1,11 @@
 # Criando e testando containers Docker
 
 ## Comandos Docker
-#### Criar uma rede Docker
+#### Rede Docker
 ```
+docker network ls
 docker network create <nome-da-rede>
+docker network rm <nome-da-rede>
 ```
 #### Baixar imagem do Dockerhub
 ```
